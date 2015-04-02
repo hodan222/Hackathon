@@ -53,3 +53,6 @@ class Player():
 
     def get_initiative(self):
         return self.__initiative
+
+    def to_string(self):
+        return self.__name

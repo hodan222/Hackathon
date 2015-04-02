@@ -102,7 +102,7 @@ class Fight():
         while not is_over:
             is_over, winner = go_round(round_=r)
             print '\n'
-            sleep(1)
+            # sleep(1)
             r += 1
         return winner
 
